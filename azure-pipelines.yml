@@ -23,7 +23,7 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: 'dist/nome-do-seu-projeto'
+    PathtoPublish: 'dist/pipeline/browser'
     ArtifactName: 'drop'
     publishLocation: 'Container'
   displayName: 'Salvando o artefato final'
