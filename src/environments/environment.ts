@@ -1,4 +1,5 @@
 export const environment = {
     production: true,
-    apiUrl: 'http://localhost:3000'
+    apiUrl: 'https://economia.awesomeapi.com.br/json/'
+
 };
